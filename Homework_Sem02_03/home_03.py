@@ -8,10 +8,10 @@
 import random
 
 input_number = int(input("Введите число N: "))
-index_lenth = 5
+index_length = 5
 
 input_index = [
-    random.randint(0, 2*input_number) for i in range(index_lenth)
+    random.randint(0, 2*input_number) for i in range(index_length)
 ]
 
 input_numbers  = [item for item in range(-input_number,input_number+1)]
